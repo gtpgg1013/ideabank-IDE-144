@@ -1,0 +1,10 @@
+{
+  "name": "ideabank-today-checklist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Password-protected daily checklist web app for IdeaBank",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

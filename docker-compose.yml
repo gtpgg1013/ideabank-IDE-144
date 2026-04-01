@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "${PORT:-3344}:${PORT:-3344}"
+    environment:
+      PORT: ${PORT:-3344}
+      ACCESS_PASSWORD: ${ACCESS_PASSWORD:-ideabank2026}
